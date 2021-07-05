@@ -1,4 +1,4 @@
-!SESSION 2021-06-07 14:07:05.522 -----------------------------------------------
+!SESSION 2021-06-22 11:43:37.376 -----------------------------------------------
 eclipse.buildId=4.17.0.I20200902-1800
 java.version=14.0.2
 java.vendor=Oracle Corporation
@@ -6,88 +6,172 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
-!ENTRY org.eclipse.ui 2 0 2021-06-07 14:07:12.648
+This is a continuation of log file G:\Test_Leaf_FSD\.metadata\.bak_0.log
+Created Time: 2021-06-22 23:31:31.508
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2021-06-22 23:31:31.508
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1276)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2020)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3750)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1932)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1963)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3023)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3302)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:167)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2021-06-22 23:31:31.511
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1276)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2020)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3750)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1932)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1963)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3023)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3302)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:167)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2021-06-23 09:23:59.910 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.649
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.649
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.649
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.649
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.649
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.649
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.649
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.649
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.649
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.649
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.649
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.add.import'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.649
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.organize.imports'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.649
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.649
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.649
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.649
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.649
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.649
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.649
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.649
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.649
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.649
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.649
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.649
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.650
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.650
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.650
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.open.hierarchy'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.650
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.650
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.650
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.650
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.650
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.650
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.650
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-07 14:07:12.650
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-23 09:24:11.548
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
 
-!ENTRY org.eclipse.jface 2 0 2021-06-07 14:07:21.973
+!ENTRY org.eclipse.jface 2 0 2021-06-23 09:24:17.431
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-07 14:07:21.973
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-23 09:24:17.431
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e4a6afd,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@21f9a305,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -95,18 +179,18 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c7aac7c,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6ff87203,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.egit.ui 2 0 2021-06-07 14:07:48.145
+!ENTRY org.eclipse.egit.ui 2 0 2021-06-23 09:24:34.900
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\G O P I'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-!SESSION 2021-06-08 11:50:07.198 -----------------------------------------------
+!SESSION 2021-06-25 13:46:31.714 -----------------------------------------------
 eclipse.buildId=4.17.0.I20200902-1800
 java.version=14.0.2
 java.vendor=Oracle Corporation
@@ -114,88 +198,88 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
-!ENTRY org.eclipse.ui 2 0 2021-06-08 11:50:15.506
+!ENTRY org.eclipse.ui 2 0 2021-06-25 13:46:42.854
 !MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.506
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.854
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.506
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.854
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.506
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.854
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.506
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.854
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.506
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.854
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.506
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.854
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.506
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.854
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.506
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.854
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.506
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.854
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.854
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.854
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.add.import'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.854
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.organize.imports'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.854
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.855
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.855
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.855
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.855
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.855
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.855
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.855
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.855
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.855
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.855
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.855
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.855
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.855
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.855
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.open.hierarchy'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.855
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.855
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.855
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.855
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.855
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.855
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.855
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-08 11:50:15.508
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-25 13:46:42.855
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
 
-!ENTRY org.eclipse.jface 2 0 2021-06-08 11:50:23.354
+!ENTRY org.eclipse.jface 2 0 2021-06-25 13:46:47.390
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-08 11:50:23.354
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-25 13:46:47.390
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4ef0bc5b,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@59172d2,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -203,18 +287,18 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@83bbab,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@77d42ed7,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.egit.ui 2 0 2021-06-08 11:50:42.328
+!ENTRY org.eclipse.egit.ui 2 0 2021-06-25 13:46:56.700
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\G O P I'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-!SESSION 2021-06-09 12:56:04.168 -----------------------------------------------
+!SESSION 2021-06-27 08:48:53.802 -----------------------------------------------
 eclipse.buildId=4.17.0.I20200902-1800
 java.version=14.0.2
 java.vendor=Oracle Corporation
@@ -222,88 +306,88 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
-!ENTRY org.eclipse.ui 2 0 2021-06-10 10:35:32.852
+!ENTRY org.eclipse.ui 2 0 2021-06-27 08:49:07.315
 !MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.315
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.315
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.add.import'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.organize.imports'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.853
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.853
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.853
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.853
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.853
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.853
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.853
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.853
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.853
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.853
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.853
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.853
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.853
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.853
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.open.hierarchy'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.853
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.853
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.853
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.853
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.853
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.853
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.853
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 10:35:32.854
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-27 08:49:07.331
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
 
-!ENTRY org.eclipse.jface 2 0 2021-06-10 10:35:55.783
+!ENTRY org.eclipse.jface 2 0 2021-06-27 08:49:17.414
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-10 10:35:55.783
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-27 08:49:17.414
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6f076c53,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@23169374,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -311,18 +395,18 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3c39c739,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f2b1a2f,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.egit.ui 2 0 2021-06-10 10:36:23.920
+!ENTRY org.eclipse.egit.ui 2 0 2021-06-27 08:49:45.310
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\G O P I'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-!SESSION 2021-06-10 18:52:30.331 -----------------------------------------------
+!SESSION 2021-06-28 18:55:25.558 -----------------------------------------------
 eclipse.buildId=4.17.0.I20200902-1800
 java.version=14.0.2
 java.vendor=Oracle Corporation
@@ -330,88 +414,181 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
-!ENTRY org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!ENTRY org.eclipse.core.resources 4 567 2021-06-28 18:55:33.740
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2021-06-28 18:55:33.740
+!MESSAGE Could not read metadata for 'product-app'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/product-app)[567]: java.lang.Exception: The project description file (.project) for 'product-app' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2452)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2210)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:814)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:806)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:763)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1011)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:506)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:572)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:346)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:473)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:171)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2021-06-28 18:55:33.750
+!MESSAGE The project description file (.project) for 'product-app' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'product-app' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2452)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2210)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:814)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:806)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:763)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1011)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:506)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:572)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:346)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:473)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:171)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 2 0 2021-06-28 18:55:35.349
 !MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.349
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.349
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.349
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.349
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.349
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.349
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.349
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.349
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.349
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.349
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.349
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.add.import'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.349
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.organize.imports'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.349
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.349
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.350
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.350
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.350
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.350
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.350
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.350
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.350
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.350
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.350
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.350
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.350
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.350
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.350
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.open.hierarchy'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.350
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.350
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.350
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.350
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.350
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.350
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.351
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 18:52:54.535
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-28 18:55:35.351
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
 
-!ENTRY org.eclipse.jface 2 0 2021-06-10 18:53:04.342
+!ENTRY org.eclipse.jface 2 0 2021-06-28 18:55:40.467
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-10 18:53:04.342
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-28 18:55:40.467
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@60e5db1d,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@21b3d356,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -419,18 +596,789 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1f3f0d25,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@294b045b,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.egit.ui 2 0 2021-06-10 18:53:23.213
+!ENTRY org.eclipse.ui 4 0 2021-06-28 18:55:48.237
+!MESSAGE FileDocumentProvider.createElementInfo
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/product-app/product.sql)[368]: java.lang.Exception: Resource '/product-app/product.sql' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:273)
+	at org.eclipse.ui.editors.text.FileDocumentProvider.setDocumentContent(FileDocumentProvider.java:381)
+	at org.eclipse.ui.editors.text.StorageDocumentProvider.createDocument(StorageDocumentProvider.java:225)
+	at org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookDocumentProvider.createDocument(SQLScrapbookDocumentProvider.java:54)
+	at org.eclipse.ui.editors.text.FileDocumentProvider.createElementInfo(FileDocumentProvider.java:691)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.connect(AbstractDocumentProvider.java:395)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4182)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:262)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1479)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:153)
+	at org.eclipse.datatools.sqltools.sqleditor.SQLEditor.doSetInput(SQLEditor.java:1036)
+	at org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditor.doSetInput(SQLScrapbookEditor.java:219)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$1(AbstractTextEditor.java:3172)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2298)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3189)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3214)
+	at org.eclipse.datatools.sqltools.sqleditor.SQLEditor.init(SQLEditor.java:629)
+	at org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditor.init(SQLScrapbookEditor.java:173)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:340)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:999)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:964)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:405)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:332)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:999)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1209)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:114)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:999)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:114)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:667)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:153)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2021-06-28 18:55:48.241
+!MESSAGE Resource '/product-app/product.sql' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/product-app/product.sql' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:273)
+	at org.eclipse.ui.editors.text.FileDocumentProvider.setDocumentContent(FileDocumentProvider.java:381)
+	at org.eclipse.ui.editors.text.StorageDocumentProvider.createDocument(StorageDocumentProvider.java:225)
+	at org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookDocumentProvider.createDocument(SQLScrapbookDocumentProvider.java:54)
+	at org.eclipse.ui.editors.text.FileDocumentProvider.createElementInfo(FileDocumentProvider.java:691)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.connect(AbstractDocumentProvider.java:395)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4182)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:262)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1479)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:153)
+	at org.eclipse.datatools.sqltools.sqleditor.SQLEditor.doSetInput(SQLEditor.java:1036)
+	at org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditor.doSetInput(SQLScrapbookEditor.java:219)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$1(AbstractTextEditor.java:3172)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2298)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3189)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3214)
+	at org.eclipse.datatools.sqltools.sqleditor.SQLEditor.init(SQLEditor.java:629)
+	at org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditor.init(SQLScrapbookEditor.java:173)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:340)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:999)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:964)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:405)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:332)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:999)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1209)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:114)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:999)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:114)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:667)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:153)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.datatools.sqltools.sqleditor 4 0 2021-06-28 18:55:50.359
+!MESSAGE Error occurred while removing markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/product-app/product.sql)[368]: java.lang.Exception: Resource '/product-app/product.sql' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Resource.deleteMarkers(Resource.java:796)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater.removeRememberedMarkers(SQLUpdater.java:496)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater.access$1(SQLUpdater.java:466)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater$2.run(SQLUpdater.java:448)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater.removeMarkers(SQLUpdater.java:444)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater.removeMarkers(SQLUpdater.java:423)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater.run(SQLUpdater.java:138)
+	at org.eclipse.datatools.sqltools.sqleditor.SQLEditor.installSQLUpdater(SQLEditor.java:1824)
+	at org.eclipse.datatools.sqltools.sqleditor.SQLEditor.createPartControl(SQLEditor.java:776)
+	at org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditor.createPartControl(SQLScrapbookEditor.java:330)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:154)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:361)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:999)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:964)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:405)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:332)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:999)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1209)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:114)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:999)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:114)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:667)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:153)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2021-06-28 18:55:50.359
+!MESSAGE Resource '/product-app/product.sql' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/product-app/product.sql' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Resource.deleteMarkers(Resource.java:796)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater.removeRememberedMarkers(SQLUpdater.java:496)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater.access$1(SQLUpdater.java:466)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater$2.run(SQLUpdater.java:448)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater.removeMarkers(SQLUpdater.java:444)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater.removeMarkers(SQLUpdater.java:423)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater.run(SQLUpdater.java:138)
+	at org.eclipse.datatools.sqltools.sqleditor.SQLEditor.installSQLUpdater(SQLEditor.java:1824)
+	at org.eclipse.datatools.sqltools.sqleditor.SQLEditor.createPartControl(SQLEditor.java:776)
+	at org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditor.createPartControl(SQLScrapbookEditor.java:330)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:154)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:361)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:999)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:964)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:405)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:332)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:999)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1209)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:114)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:999)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:114)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:667)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:153)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-06-28 18:55:52.178
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\G O P I'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-!SESSION 2021-06-10 21:13:46.747 -----------------------------------------------
+
+!ENTRY org.eclipse.datatools.sqltools.sqleditor 4 0 2021-06-28 18:56:03.307
+!MESSAGE Error occurred while removing markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/product-app/product.sql)[368]: java.lang.Exception: Resource '/product-app/product.sql' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Resource.deleteMarkers(Resource.java:796)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater.removeRememberedMarkers(SQLUpdater.java:496)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater.access$1(SQLUpdater.java:466)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater$2.run(SQLUpdater.java:448)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater.removeMarkers(SQLUpdater.java:444)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater.removeMarkers(SQLUpdater.java:423)
+	at org.eclipse.datatools.sqltools.sqleditor.SQLEditor.stopSQLUpdater(SQLEditor.java:1790)
+	at org.eclipse.datatools.sqltools.sqleditor.SQLEditor.dispose(SQLEditor.java:943)
+	at org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditor.dispose(SQLScrapbookEditor.java:307)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.invalidate(CompatibilityPart.java:260)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.destroy(CompatibilityPart.java:417)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:999)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:964)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.uninject(InjectorImpl.java:201)
+	at org.eclipse.e4.core.internal.di.Requestor.uninject(Requestor.java:176)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:89)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.removeListenersTo(EclipseContext.java:491)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.uninject(ContextInjectionFactory.java:184)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:951)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$1(PartRenderingEngine.java:870)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:865)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:849)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.subscribeTopicToBeRendered(PartRenderingEngine.java:185)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setToBeRendered(UIElementImpl.java:314)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1402)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1332)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1182)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.access$0(StackRenderer.java:1168)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$3.close(StackRenderer.java:1042)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1958)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:335)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4195)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4012)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3612)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:153)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2021-06-28 18:56:03.308
+!MESSAGE Resource '/product-app/product.sql' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/product-app/product.sql' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Resource.deleteMarkers(Resource.java:796)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater.removeRememberedMarkers(SQLUpdater.java:496)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater.access$1(SQLUpdater.java:466)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater$2.run(SQLUpdater.java:448)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater.removeMarkers(SQLUpdater.java:444)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater.removeMarkers(SQLUpdater.java:423)
+	at org.eclipse.datatools.sqltools.sqleditor.SQLEditor.stopSQLUpdater(SQLEditor.java:1790)
+	at org.eclipse.datatools.sqltools.sqleditor.SQLEditor.dispose(SQLEditor.java:943)
+	at org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditor.dispose(SQLScrapbookEditor.java:307)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.invalidate(CompatibilityPart.java:260)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.destroy(CompatibilityPart.java:417)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:999)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:964)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.uninject(InjectorImpl.java:201)
+	at org.eclipse.e4.core.internal.di.Requestor.uninject(Requestor.java:176)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:89)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.removeListenersTo(EclipseContext.java:491)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.uninject(ContextInjectionFactory.java:184)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:951)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$1(PartRenderingEngine.java:870)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:865)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:849)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.subscribeTopicToBeRendered(PartRenderingEngine.java:185)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setToBeRendered(UIElementImpl.java:314)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1402)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1332)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1182)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.access$0(StackRenderer.java:1168)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$3.close(StackRenderer.java:1042)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1958)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:335)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4195)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4012)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3612)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:153)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SESSION 2021-06-30 15:29:35.713 -----------------------------------------------
 eclipse.buildId=4.17.0.I20200902-1800
 java.version=14.0.2
 java.vendor=Oracle Corporation
@@ -438,88 +1386,88 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
-!ENTRY org.eclipse.ui 2 0 2021-06-10 21:14:17.851
+!ENTRY org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.851
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.851
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.851
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.851
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.851
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.851
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.851
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.851
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.851
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.851
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.851
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.add.import'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.851
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.organize.imports'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.851
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.851
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.851
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.851
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.851
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.851
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.851
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.851
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.851
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.open.hierarchy'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-10 21:14:17.852
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-30 15:30:11.859
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
 
-!ENTRY org.eclipse.jface 2 0 2021-06-10 21:14:39.661
+!ENTRY org.eclipse.jface 2 0 2021-06-30 15:30:20.106
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-10 21:14:39.661
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-30 15:30:20.106
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b5d6f9c,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4767be27,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -527,18 +1475,18 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3514df8d,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@46f041cb,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.egit.ui 2 0 2021-06-10 21:15:00.735
+!ENTRY org.eclipse.egit.ui 2 0 2021-06-30 15:30:42.279
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\G O P I'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-!SESSION 2021-06-11 09:56:55.147 -----------------------------------------------
+!SESSION 2021-07-01 13:51:21.153 -----------------------------------------------
 eclipse.buildId=4.17.0.I20200902-1800
 java.version=14.0.2
 java.vendor=Oracle Corporation
@@ -546,88 +1494,88 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
-!ENTRY org.eclipse.ui 2 0 2021-06-11 10:30:44.379
+!ENTRY org.eclipse.ui 2 0 2021-07-01 13:51:40.813
 !MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.379
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.813
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.379
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.813
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.379
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.813
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.379
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.813
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.379
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.813
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.379
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.813
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.380
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.813
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.380
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.813
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.380
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.813
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.380
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.813
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.380
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.813
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.add.import'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.380
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.813
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.organize.imports'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.381
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.813
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.381
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.813
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.381
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.813
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.381
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.813
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.381
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.813
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.381
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.821
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.382
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.821
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.382
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.821
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.382
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.821
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.382
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.821
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.382
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.821
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.382
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.821
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.383
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.821
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.383
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.821
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.383
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.821
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.open.hierarchy'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.383
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.821
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.383
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.821
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.383
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.821
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.383
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.821
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.384
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.821
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.384
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.821
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.384
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.821
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 10:30:44.384
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-01 13:51:40.821
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
 
-!ENTRY org.eclipse.jface 2 0 2021-06-11 10:30:55.045
+!ENTRY org.eclipse.jface 2 0 2021-07-01 13:51:52.355
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-11 10:30:55.045
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-01 13:51:52.355
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@48f95f96,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1eda12b3,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -635,18 +1583,18 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@55bafbc1,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5006a697,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.egit.ui 2 0 2021-06-11 10:31:16.313
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-01 13:52:26.566
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\G O P I'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-!SESSION 2021-06-11 17:46:47.912 -----------------------------------------------
+!SESSION 2021-07-02 23:18:31.522 -----------------------------------------------
 eclipse.buildId=4.17.0.I20200902-1800
 java.version=14.0.2
 java.vendor=Oracle Corporation
@@ -654,88 +1602,88 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
-!ENTRY org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!ENTRY org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.add.import'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.organize.imports'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.open.hierarchy'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-06-11 17:47:08.386
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-02 23:18:52.360
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
 
-!ENTRY org.eclipse.jface 2 0 2021-06-11 17:47:19.165
+!ENTRY org.eclipse.jface 2 0 2021-07-02 23:18:56.722
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-11 17:47:19.165
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-02 23:18:56.722
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@67b2c8bb,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@193792e6,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -743,12 +1691,120 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@32029cd,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@21f9a305,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.egit.ui 2 0 2021-06-11 17:47:39.884
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-02 23:19:09.751
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\G O P I'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-07-03 09:06:05.993 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 2 0 2021-07-03 09:06:15.074
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.074
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.075
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.075
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.075
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.075
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.075
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.075
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.075
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.075
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.075
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.076
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.add.import'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.076
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.organize.imports'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.076
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.076
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.076
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.076
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.076
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.076
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.076
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.076
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.076
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.076
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.076
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.076
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.076
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.076
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.076
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.open.hierarchy'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.077
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.077
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.077
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.077
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.077
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.077
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.077
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-03 09:06:15.077
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
+
+!ENTRY org.eclipse.jface 2 0 2021-07-03 09:06:22.078
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-03 09:06:22.078
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@23169374,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f2b1a2f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-03 09:06:50.241
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\G O P I'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
